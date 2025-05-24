@@ -2,7 +2,6 @@
 
 import { usePathname } from "next/navigation";
 
-
 export default function Formulario() {
     // gets url from the dynamic route
     const url = usePathname();
